@@ -5,6 +5,7 @@ print("Welcome to the Mad libs python game!")
 print("Enter the word that matches the requirements.")
 
 while True:
+    print ("Enter holiday or the fun park")
     setSelection = input("Select which Mad Libs set you would like to use?\n")
     if setSelection.lower() == "holiday":
         holiday()
